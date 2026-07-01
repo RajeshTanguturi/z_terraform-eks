@@ -1,0 +1,41 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+
+# CLI configuration
+.terraform.lock.hcl
+.terraform.d/
+
+# Sensitive files
+.secrets.auto.tfvars
+*.auto.tfvars
+
+# IDEs and editors
+.idea/
+.vscode/
+
+# Kubernetes
+.kube/
+kubeconfig
+
+# Local environment files
+.env
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+
+# Others
+.history
+.terraformrc
+
